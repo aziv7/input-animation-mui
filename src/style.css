@@ -1,0 +1,15 @@
+
+
+.animated-text:focus ~ div{
+    @apply transition-all duration-200 ease-in-out -translate-y-2 scale-75 text-blue-600;
+}
+
+
+.animated-text::placeholder{
+    opacity: 0;
+}
+
+
+/* .animated-text:not(:placeholder-shown) ~ div{
+    @apply -translate-y-2 scale-75;
+} */
